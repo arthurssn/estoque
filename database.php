@@ -1,9 +1,9 @@
 <?php
 $servidor = "localhost";
 $porta = 5432;
-$bd = "estoque";
+$bd = " /*insira o nome do banco postgres */ ";
 $usuario = "postgres";
-$senha = "91542468";
+$senha = " /* senha do banco*/ ";
 
 $sql_select = "SELECT * FROM estoque ORDER BY 1";
 
